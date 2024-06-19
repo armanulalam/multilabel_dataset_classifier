@@ -1,0 +1,1 @@
+You can download the deployed model from this link: https://drive.google.com/file/d/1-ENFwJ8zPJBWRKmpBhYirrQK_XfSK96I/view?usp=sharing
