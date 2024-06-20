@@ -2,14 +2,14 @@
 An end to end text classification model with data collection, model training,model compression and deployment. <br/>
 This model can classify 102 different types of dataset types <br/>The keys of `deployment\category_types_encoded.json` shows the dataset category.<br>
 To deploy this model, I used `distilroberta-base` huggingface model which is used for multilabel text classification. But, I also trained my model using `microsoft/deberta-base` and `bert-base-uncased` model with **96.20% Accuracy** with **5 epochs** and finally, I compared and deploy the best model for this project.
-**N.B: the classes name used in the `scraper\dataset_url_scraper.py` and  `scraper\dataset_info_scraper.py` can be changed due to Kaggle's policy. It might be occurred to tackle the scraping.**
+**N.B: the classes name used in the `scrapers\dataset_url_scraper.py` and  `scrapers\dataset_info_scraper.py` can be changed due to Kaggle's policy. It might be occurred to tackle the scraping.**
 
  ## Data Collection
 
 Data was collected from [Kaggle Website](https://www.kaggle.com/datasets) <br/>The data collection process is divided into 2 steps:
 
-1. **Dataset URL Scraping:** The dataset urls were scraped with `scraper\dataset_url_scraper.py` and the urls are stored in `data\dataset_urls.csv`
-2. **Dataset Info Scraping:** Using the urls, dataset title, description and categories are scraped with `scraper\dataset_info_scraper.py` and they are stored in `data\dataset_info.csv`
+1. **Dataset URL Scraping:** The dataset urls were scraped with `scrapers\dataset_url_scraper.py` and the urls are stored in `data\dataset_urls.csv`
+2. **Dataset Info Scraping:** Using the urls, dataset title, description and categories are scraped with `scrapers\dataset_info_scraper.py` and they are stored in `data\dataset_info.csv`
 
 In total, I scraped 20,942 dataset details.
 
