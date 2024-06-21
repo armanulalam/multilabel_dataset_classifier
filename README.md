@@ -30,7 +30,7 @@ The trained model has a memory of 315.5MB but I compressed this model using ONNX
 
 
 ## Why I did not choose DeBERTa and BERT Models?
-As I used Google Colab for free that is why it did not not possible to train my model using these two models with proper learning rate as these two models take more memory than distilroberta-base and when I wanted to train my model using proper learning rate I got MemoryOutError in goolge colab.Moreover, I got less train loss and valid loss for distilroberta-base model.So, there might be overfitting issue using these models. Moreover, Distilled version of RoBERTa, meaning it’s smaller and faster to train,retains much of RoBERTa’s performance while being more resource-efficient, suitable for scenarios with limited computational resources. For these reasons, I decided to deploy `distilroberta-base` model.
+As I used Google Colab for free that is why it did not not possible to train my model using these two models with proper learning rate as these two models take more memory than distilroberta-base and when I wanted to train my model using proper learning rate I got MemoryOutError in goolge colab..So, there might be overfitting issue using these models.Moreover, I got less train loss and valid loss for distilroberta-base model.Further, Distilled version of RoBERTa, meaning it’s smaller and faster to train,retains much of RoBERTa’s performance while being more resource-efficient, suitable for scenarios with limited computational resources. For these reasons, I decided to deploy `distilroberta-base` model.
 
 ## Model Results
 #### Distilroberta:
