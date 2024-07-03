@@ -46,7 +46,7 @@ As I used Google Colab for free that is why it did not not possible to train my 
 
 The compressed model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Armanul/multilabel_dataset_classifier) 
 
-<img src = "deployment/gradio_app.JPG" width="800" height="400">
+<img src = "deployment/gradio_app.JPG" width="800" height="300">
 
 ## Web Deployment
 Deployed a Flask App built to take descprition and show the categories as output. If the model recognize any category based on your provided description then it will return null value. Check `flask ` branch. The website is live [here](https://multilabel-dataset-classifier.onrender.com) 
