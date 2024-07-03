@@ -32,16 +32,6 @@ The trained model has a memory of 315.5MB but I compressed this model using ONNX
 ## Why I did not choose DeBERTa and BERT Models?
 As I used Google Colab for free that is why it did not not possible to train my model using these two models with proper learning rate as these two models take more memory than distilroberta-base and when I wanted to train my model using proper learning rate I got MemoryOutError in google colab..So, there might be overfitting issue using these models.Moreover, I got less train loss and valid loss for distilroberta-base model.Further, Distilled version of RoBERTa, meaning it’s smaller and faster to train,retains much of RoBERTa’s performance while being more resource-efficient, suitable for scenarios with limited computational resources. For these reasons, I decided to deploy `distilroberta-base` model.
 
-## Model Results
-#### Distilroberta:
-![distilroberta_result](https://github.com/armanulalam/multilabel_dataset_classifier/assets/65443530/59859d8b-5eb1-4664-a578-52fee229f6c0)
-
-#### Bert:
-![bert_result](https://github.com/armanulalam/multilabel_dataset_classifier/assets/65443530/f93991f3-0382-444c-b3b6-89157eb0eb89)
-
-#### Deberta:
-![deberta_result](https://github.com/armanulalam/multilabel_dataset_classifier/assets/65443530/08f59ae5-47ab-4f9f-9188-1a0ac2f0b456)
-
 ## Model Deployment
 
 The compressed model is deployed to HuggingFace Spaces Gradio App. The implementation can be found in `deployment` folder or [here](https://huggingface.co/spaces/Armanul/multilabel_dataset_classifier) 
