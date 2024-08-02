@@ -1,6 +1,6 @@
 # Multilabel_Dataset_Category_Classifier
 An end to end text classification model with data collection, model training,model compression and deployment. <br/>
-This model can classify 102 different types of dataset types <br/>The keys of `deployment\category_types_encoded.json` shows the dataset category.<br>
+This model can classify 103 different types of dataset types <br/>The keys of `deployment\category_types_encoded.json` shows the dataset category.<br>
 To deploy this model, I used `distilroberta-base` huggingface model which is used for multilabel text classification. But, I also trained my model using `microsoft/deberta-base` and `bert-base-uncased` model with **96.20% Accuracy** with **5 epochs** and finally, I compared and deploy the best model for this project.
 **N.B: the classes name used in the `scrapers\dataset_url_scraper.py` and  `scrapers\dataset_info_scraper.py` can be changed due to Kaggle's policy. It might be occurred to tackle the scraping.**
 
