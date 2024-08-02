@@ -15,7 +15,7 @@ In total, I scraped 20,942 dataset details.
 
 ## Data Preprocessing
 
-After removing the duplicate urls and null values from the dataset the dataset transformed to 19,920 from 20,942. Initially there were *437* different categories in the dataset. After some analysis, I found out *334* of them are rare based on setting up the threshold which was 0.5% of the total length of the dataset. So, I removed those genres and then I have *102* categories. 
+After removing the duplicate urls and null values from the dataset the dataset transformed to 19,920 from 20,942. Initially there were *437* different categories in the dataset. After some analysis, I found out *334* of them are rare based on setting up the threshold which was 0.5% of the total length of the dataset. So, I removed those genres and then I have *103* categories. 
 
 ## Model Training
 
