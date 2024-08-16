@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <style>
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            height: 5ch;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #afebe0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .form-container {
+            width: 500px;
+            padding: 18px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.09);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(2.4px);
+            -webkit-backdrop-filter: blur(2.4px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            position: absolute;
+            top: 8%;
+            position: relative;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #text {
+            height: auto;
+            width: auto;
+            font-size: 18px;
+        }
+
+        body {
+            background-image: url(./bg-image.png);
+        }
+
+        #description1 {
+            width: 95%;
+            margin: 0px auto 0px auto;
+            height: 30vh;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body style="position: relative;">
+
+    <div class="container">
+        <div class="form-container">
+            <form action="">
+                <h3 style="color: rgb(190, 169, 198);">Multilabel Dataset Classifier</h3><br>
+
+                <div style="height: auto; width: auto; flex-direction: column;; display: flex;">
+                    <p style="text-align: center; font-size:medium; color: white; font-weight: bolder;">Input Text :</p>
+                    <textarea id="description1" name="description" placeholder="Write your description here...">
+                        {{ input_text }}</textarea>
+                </div>
+
+                <div style="height: auto; width: auto; color: white;">
+                    <p style="text-align: center; font-size:medium; color: white; font-weight: bolder;">Categories :</p>
+                    <p style="text-align: center;">{{ output_text }}</p>
+                </div>
+            </form>
+        </div>
+        <p style="color: rgb(190, 169, 198); font-weight: 8px; position: absolute; bottom: 25%;">&copy; 2024
+            Armanul Alam. All rights reserved.</p>
+
+    </div>
+
+</body>
+
+
+
+
+</html>
