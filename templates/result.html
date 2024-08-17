@@ -1,6 +1,7 @@
 <html>
 
 <head>
+
     <style>
         .head {
             display: flex;
@@ -20,6 +21,7 @@
             justify-content: center;
             align-items: center;
             height: 70vh;
+            flex-direction: column;
         }
 
         .form-container {
@@ -59,6 +61,20 @@
             height: 30vh;
             margin-top: 5px;
         }
+
+        .btn {
+            margin-top: 95%;
+            padding: 20px;
+            font-weight: 400;
+            font-size: larger;
+            border-radius: 10%;
+            cursor: pointer;
+            font-weight: 300;
+            font-size: larger;
+        }
+        .btn:hover {
+            background-color: rgb(68, 150, 232);
+        }
     </style>
 </head>
 
@@ -81,10 +97,15 @@
                 </div>
             </form>
         </div>
-        <p style="color: rgb(190, 169, 198); font-weight: 8px; position: absolute; bottom: 25%;">&copy; 2024
+        <a href="index.html">
+            <button type="button" class="btn">Back</button>
+        </a>
+
+        <p style="color: rgb(190, 169, 198); font-weight: 8px; position: absolute; bottom: 0;">&copy; 2024
             Armanul Alam. All rights reserved.</p>
 
     </div>
+
 
 </body>
 
