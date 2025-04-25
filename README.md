@@ -41,8 +41,8 @@ The compressed model is deployed to HuggingFace Spaces Gradio App. The implement
 ## Web Deployment
 Deployed a Flask App built to take descprition and show the categories as output. If the model recognize any category based on your provided description then it will return null value. Check `flask ` branch. The website is live [here](https://multilabel-dataset-classifier.onrender.com) 
 
-<img src = "deployment/flask_app_home.JPG" width="800" height="400">
-<img src = "deployment/flask_app_results.JPG" width="800" height="400">
+<img src = "deployment/multi_label_dataset_classifer.JPG" width="800" height="400">
+<img src = "deployment/multi_label_dataset_classifer2.JPG" width="800" height="400">
 
 ## Build from the sources
 `Python version 3.10 or 3.11 is required.`
